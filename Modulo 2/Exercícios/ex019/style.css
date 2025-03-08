@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{background-color: #EDDEA4;
+border: solid 5px rgb(85, 10, 10);
+margin: 5px;
+padding: 5px;}
+h1{color: rgb(0, 0, 0);}
+h2{color: rgb(248, 35, 35);}
+
+h1#principal{color:#EDDEA4;
+background-color: rgb(85, 10, 10);
+text-align: center;}
+
+.basico{color: red;}
+.intermediario{color: green;}
+.avancado{color: blue;}
