@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Grande</title>
+
+    <style>
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        th {
+            background-color: gray;
+            color: white;
+        }
+
+        th,
+        td {
+            border: solid 1px black;
+            padding: 20px;
+            text-align: center;
+        }
+
+        tbody>tr:nth-child(2n) {
+            background-color: rgba(128, 128, 128, 0.473);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tabelas Grandes</h1>
+
+
+    <!--ANATOMIA DE TABELAS GRANDE
+    TABLE
+    CAPION
+        THEAD
+        TBODY
+        TFOOD  -->
+    <TABLE>
+        <CAPtion>População das Unidades Federativas</CAPtion>
+        <THEad>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+
+            </tr>
+        </THEad>
+
+        <TBody>
+            <tr>
+                <td colspan="2">São Paulo</td>
+
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td rowspan="2">20 539 989</td>
+            </tr>
+            <tr>
+                S
+                <td>16 055 174</td>
+            </tr>
+
+        </TBody>
+
+        <TFoot>
+            <tr>
+                <th scope="row">total de habitantes</th>
+                <td>=</td>
+            </tr>
+        </TFoot>
+
+
+
+    </TABLE>
+
+</body>
+
+</html>
