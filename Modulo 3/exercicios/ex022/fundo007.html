@@ -1,48 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alinhamento vertical</title>
-<style>
-#conteiner{
-    background-image: url('imagens/target001.png');
-    background-size: 100%,100%;
+    <style>
+        #conteiner {
+            background-image: url('imagens/target001.png');
+            background-size: 100%, 100%;
 
-    position: relative;
-    height: 96vh;
-    padding: 10px;
-    background-color: blueviolet;
-}
-#conteudo{
-    background-image: url('imagens/target001.png');
-    background-size: 100%, 100%;
+            position: relative;
+            height: 96vh;
+            padding: 10px;
+            background-color: blueviolet;
+        }
 
-    height: 300px;
-    width: 400px;
-    background-color: yellow;
-    position: absolute;
+        #conteudo {
+            background-image: url('imagens/target001.png');
+            background-size: 100%, 100%;
 
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    
-}
-</style>
-<!--
+            height: 300px;
+            width: 400px;
+            background-color: yellow;
+            position: absolute;
+
+            left: 50%;
+            top: 43%;
+
+            transform: translate(-50%, -50%);
+
+        }
+    </style>
+    <!--
     Todo posicionamento de box é relativo.
     Da pra usar left e top com posicionamento absoluto.
 -->
 
 </head>
+
 <body>
     <section id="conteiner">
         <article id="conteudo">
-            
+
         </article>
 
-        
+
     </section>
-    
+
 </body>
+
 </html>
